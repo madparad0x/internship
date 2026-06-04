@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <h1>Fromulaire de Contact</h1>
+    <form action="">
+        <label for="nom">Nom: </label><br>
+        <input type="text" name="nom" required> <br><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" name="email" required> <br><br>
+
+        <label for="Téléphone">Téléphone: </label><br>
+        <input type="tel" name="Téléphone"> <br><br>
+
+        <label for="Sujet">Sujet: </label> <br>
+        <select name="sujet" id="sujet"> required
+            <option value="">-- Choisir un sujet --</option>
+            <option value="information">Demande d'information</option>
+            <option value="support">Support technique</option>
+        </select> <br><br>
+
+        <p>Genre:</p>
+        <input type="radio" value="homme">
+        <label for="homme">Homme</label>
+
+        <input type="radio" value="femme">
+        <label for="homme">Femme</label><br><br>
+        
+        <p>Centres d'intérêt :</p>
+        <input type="checkbox" value="web">
+        <label for="web">Développement Web</label> <br>
+
+        <input type="checkbox"  value="mobile">
+        <label for="mobile">Développement Mobile</label><br>
+
+        <input type="checkbox" value="design">
+        <label for="design">Design UI/UX</label><br><br>
+
+        <label for="message">Message: </label> <br>
+        <textarea name="message" rows="5" cols="40" minlength="10" required></textarea> <br><br>
+
+        <input type="checkbox" name="checkbox" required >
+        <label for="Conditions">
+        J'accepte les conditions d'utilisation
+        </label> <br><br>
+        <input type="submit" name="submit" value="envoyer">
+        <input type="reset" value="Réinitialiser">
+
+
+
+
+    </form>
+    
+</body>
+</html>
